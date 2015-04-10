@@ -6,7 +6,12 @@ Of course, I didn't "cheat" by making the library too specific to the problem of
 
 I feel the resulting code is nearly as terse as a definition in any language could reasonably be.
 
+
 # Testing
+
+Go to http://countable.github.io/todomvc-min/
+
+OR
 
 ```
 git clone <this repo>
