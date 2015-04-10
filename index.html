@@ -1,0 +1,55 @@
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ReLib • TodoMVC</title>
+        <link rel="stylesheet" href="base.css"/>
+
+</head>
+<body>
+        <section id="todoapp" class="todoapp" data-framework="relib">
+        <header id="header">
+                <h1>todos</h1>
+                <input id="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+
+        <section id="main">
+                <input id="toggle-all" type="checkbox" checked="checked">
+                <label for="toggle-all">Mark all as complete</label>
+                <ul id="todo-list" class="todos">
+                        <li class="todo">
+                                <div class="view">
+                                        <input name="completed" class="toggle" type="checkbox">
+                                        <label class="title"></label>
+                                        <button class="destroy"></button>
+                                </div>
+                                <input class="edit" type="text" name="title">
+                        </li>
+                </ul>
+        </section>
+        <footer id="footer">
+                <span id="todo-count"><strong class='n-left'>1</strong>
+                        items left</span>
+                <ul id="filters">
+                        <li>
+                                <a class="filter-all selected">All</a>
+                                <a class="filter-active">Active</a>
+                                <a class="filter-completed">Completed</a>
+                        </li>
+                </ul>
+                <button id="clear-completed">Clear completed (<span class='n-completed'></span>)</button>
+        </footer>
+        </section>
+        <footer id="info">
+                <p>Double-click to edit a todo</p>
+                <p>Created by Clark Van Oyen - <a href="http://github.com/countable">GitHub</a>&nbsp;&nbsp;<a href="http://twitter.com/echo85">Twitter</a></p>
+                <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+        </footer>
+        <script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="relib/retool.js"></script>
+        <script src="relib/remodel.js"></script>
+        <script src="relib/review.js"></script>
+        <script src="todos.js"></script>
+</body>
+
+
+
